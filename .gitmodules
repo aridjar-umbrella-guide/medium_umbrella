@@ -1,0 +1,15 @@
+[submodule "apps/admin"]
+	path = apps/admin
+	url = https://github.com/aridjar-umbrella-guide/admin.git
+[submodule "apps/aggregator"]
+	path = apps/aggregator
+	url = https://github.com/aridjar-umbrella-guide/aggregator.git
+[submodule "apps/webhook"]
+	path = apps/webhook
+	url = https://github.com/aridjar-umbrella-guide/webhook.git
+[submodule "apps/api"]
+	path = apps/api
+	url = https://github.com/aridjar-umbrella-guide/api.git
+[submodule "apps/database"]
+	path = apps/database
+	url = https://github.com/aridjar-umbrella-guide/database.git
