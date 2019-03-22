@@ -9,10 +9,11 @@ RUN mix local.rebar --force
 # install the latest Phoenix
 RUN mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez --force
 
-# install NodeJS and NPM
+# install NodeJS, NPM and inotify (to listen to css/js files changes)
 RUN curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
 RUN bash nodesource_setup.sh
 RUN apt-get install nodejs
+RUN apt-get install -y inotify-tools
 
 # create our app folder and copy our code in it
 RUN mkdir /app
