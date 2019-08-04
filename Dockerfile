@@ -29,4 +29,4 @@ RUN mix deps.compile
 RUN cd apps/admin/assets && npm install && npm run build && cd ../ && mix phx.digest
 
 # run phoenix server
-# CMD mix phx.server
+CMD mix phx.server
