@@ -1,6 +1,6 @@
 # ./Dockerfile
 # base image Elixir to start with
-FROM elixir:1.8
+FROM elixir:1.9
 
 # install hex package manager
 RUN mix local.hex --force
