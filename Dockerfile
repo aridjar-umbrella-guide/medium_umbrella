@@ -1,6 +1,6 @@
 # ./Dockerfile
 # base image Elixir to start with
-FROM elixir:1.8
+FROM elixir:1.9
 
 # install hex package manager
 RUN mix local.hex --force
@@ -29,4 +29,4 @@ RUN mix deps.compile
 RUN cd apps/admin/assets && npm install && npm run build && cd ../ && mix phx.digest
 
 # run phoenix server
-# CMD mix phx.server
+CMD mix phx.server
