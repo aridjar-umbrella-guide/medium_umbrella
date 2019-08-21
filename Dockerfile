@@ -21,6 +21,7 @@ COPY . /app
 WORKDIR /app
 
 # install dependencies
+RUN mix deps.clean --all --unlock
 RUN mix deps.get
 RUN mix deps.compile
 

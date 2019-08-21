@@ -43,5 +43,5 @@ services:
             POSTGRES_USER: ${PSQL_USER}
             POSTGRES_PASSWORD: ${PSQL_PWD}
             POSTGRES_DB_TEST: ${PSQL_DB_TEST}
-            POSTGRES_DB_DEV: ${PSQL_DB}
+            POSTGRES_DB_DEV: ${PSQL_DB_DEV}
             POSTGRES_HOST: ${PSQL_HOST}
