@@ -45,3 +45,5 @@ services:
             POSTGRES_DB_TEST: ${PSQL_DB_TEST}
             POSTGRES_DB_DEV: ${PSQL_DB_DEV}
             POSTGRES_HOST: ${PSQL_HOST}
+            ADMIN_GUARDIAN_KEY: ${ADMIN_GUARDIAN_KEY}
+            ADMIN_PWD: ${ADMIN_PWD}
